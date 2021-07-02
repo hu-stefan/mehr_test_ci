@@ -74,6 +74,9 @@ jobs:
     # Remove the .pfx
     - name: Remove the .pfx
       run: Remove-Item -path $env:Wap_Project_Directory\$env:SigningCertificate
+      
+    - name: Create Release
+      uses: ncipollo/release-action@v1.8.6
 
     # Upload the MSIX package: https://github.com/marketplace/actions/upload-artifact
     - name: Upload build artifacts
