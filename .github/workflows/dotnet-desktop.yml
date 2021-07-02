@@ -8,6 +8,8 @@ name:  Wpf Continuous Integration
 # Trigger on every master branch push and pull request
 on:
   push:
+    tags:
+    - '*'
     branches:
       - master
   pull_request:
