@@ -81,12 +81,12 @@ jobs:
     - uses: papeloto/action-zip@v1
       with:
         files: ${{ env.Wap_Project_Directory }}\${{ env.App_Packages_Directory }}
-        dest: result.zip
+        dest: Install_FrogeFrontEnd.zip
 
 #create release
     - name: Create Release
       uses: ncipollo/release-action@v1.8.6
       with:
-        artifacts: result.zip
+        artifacts: Install_FrogeFrontEnd.zip
         token: ${{ secrets.GITHUB_TOKEN }}
-        tag: "testing"
+        tag: "Install_FrogeFrontEnd"
