@@ -84,6 +84,7 @@ jobs:
         artifacts: ${{ env.Wap_Project_Directory }}\${{ env.App_Packages_Directory }}
         bodyFile: "body.md"
         token: ${{ secrets.GITHUB_TOKEN }}
+        tag: "testing"
 
 
 
