@@ -1,0 +1,14 @@
+D:\Uni\hiwi\wpf_test\WapProjTemplate1\Images\SplashScreen.scale-200.png
+D:\Uni\hiwi\wpf_test\WapProjTemplate1\Images\LockScreenLogo.scale-200.png
+D:\Uni\hiwi\wpf_test\WapProjTemplate1\Images\Square150x150Logo.scale-200.png
+D:\Uni\hiwi\wpf_test\WapProjTemplate1\Images\Square44x44Logo.scale-200.png
+D:\Uni\hiwi\wpf_test\WapProjTemplate1\Images\Square44x44Logo.targetsize-24_altform-unplated.png
+D:\Uni\hiwi\wpf_test\WapProjTemplate1\Images\StoreLogo.png
+D:\Uni\hiwi\wpf_test\WapProjTemplate1\Images\Wide310x150Logo.scale-200.png
+D:\Uni\hiwi\wpf_test\WapProjTemplate1\bin\x86\Release\resources.pri
+D:\Uni\hiwi\wpf_test\WpfApp1\bin\Release\netcoreapp3.1\WpfApp1.deps.json
+D:\Uni\hiwi\wpf_test\WpfApp1\bin\Release\netcoreapp3.1\WpfApp1.runtimeconfig.dev.json
+D:\Uni\hiwi\wpf_test\WpfApp1\obj\Release\netcoreapp3.1\apphost.exe
+D:\Uni\hiwi\wpf_test\WpfApp1\bin\Release\netcoreapp3.1\WpfApp1.runtimeconfig.json
+D:\Uni\hiwi\wpf_test\WpfApp1\bin\Release\netcoreapp3.1\WpfApp1.dll
+D:\Uni\hiwi\wpf_test\WpfApp1\bin\Release\netcoreapp3.1\WpfApp1.pdb

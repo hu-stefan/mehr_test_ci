@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>STEFANPC</Machine>
+    <WindowsUser>Hubis</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>50d19034-a1c3-49b3-9a98-cf839b0b52a6</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Hubis</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\Uni\hiwi\wpf_test\WapProjTemplate1\obj\x86\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath></WindowsSdkPath>
+    <LayoutDir>D:\Uni\hiwi\wpf_test\WapProjTemplate1\bin\x86\Release\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Uni\hiwi\wpf_test\WapProjTemplate1\bin\x86\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Uni\hiwi\wpf_test\WapProjTemplate1\Images\SplashScreen.scale-200.png">
+      <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Uni\hiwi\wpf_test\WapProjTemplate1\Images\LockScreenLogo.scale-200.png">
+      <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Uni\hiwi\wpf_test\WapProjTemplate1\Images\Square150x150Logo.scale-200.png">
+      <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Uni\hiwi\wpf_test\WapProjTemplate1\Images\Square44x44Logo.scale-200.png">
+      <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Uni\hiwi\wpf_test\WapProjTemplate1\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Uni\hiwi\wpf_test\WapProjTemplate1\Images\StoreLogo.png">
+      <PackagePath>Images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Uni\hiwi\wpf_test\WapProjTemplate1\Images\Wide310x150Logo.scale-200.png">
+      <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Uni\hiwi\wpf_test\WapProjTemplate1\bin\x86\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Uni\hiwi\wpf_test\WpfApp1\bin\Release\netcoreapp3.1\WpfApp1.deps.json">
+      <PackagePath>WpfApp1\WpfApp1.deps.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Uni\hiwi\wpf_test\WpfApp1\bin\Release\netcoreapp3.1\WpfApp1.runtimeconfig.dev.json">
+      <PackagePath>WpfApp1\WpfApp1.runtimeconfig.dev.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Uni\hiwi\wpf_test\WpfApp1\obj\Release\netcoreapp3.1\apphost.exe">
+      <PackagePath>WpfApp1\WpfApp1.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Uni\hiwi\wpf_test\WpfApp1\bin\Release\netcoreapp3.1\WpfApp1.runtimeconfig.json">
+      <PackagePath>WpfApp1\WpfApp1.runtimeconfig.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Uni\hiwi\wpf_test\WpfApp1\bin\Release\netcoreapp3.1\WpfApp1.dll">
+      <PackagePath>WpfApp1\WpfApp1.dll</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
