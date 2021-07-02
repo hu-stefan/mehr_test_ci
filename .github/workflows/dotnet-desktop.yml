@@ -78,6 +78,10 @@ jobs:
     #create release
     - name: Create Release
       uses: ncipollo/release-action@v1.8.6 -artifact ${{ env.Wap_Project_Directory }}\${{ env.App_Packages_Directory }}
+      with:
+        artifacts: ${{ env.Wap_Project_Directory }}\${{ env.App_Packages_Directory }}
+        bodyFile: "body.md"
+        token: ${{ secrets.GITHUB_TOKEN }}
 
 
 
