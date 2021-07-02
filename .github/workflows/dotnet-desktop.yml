@@ -29,7 +29,7 @@ jobs:
       SigningCertificate: WapProjTemplate1_TemporaryKey.pfx
       Solution_Path: WpfApp1\WpfApp1.sln
       Wpf_Project_Path: WpfApp1\WpfApp1.csproj
-      Wap_Project_Directory: WapProjTemplate1.Package
+      Wap_Project_Directory: WapProjTemplate1
       Wap_Project_Name: \WapProjTemplate1\WapProjTemplate1.wapproj
 
     steps:
